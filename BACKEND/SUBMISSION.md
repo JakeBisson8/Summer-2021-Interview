@@ -22,7 +22,6 @@ Mongo DB connected!
 ### Endpoints
 
 #### Test User Routes
-<hr/>
 **Definition:** Returns a message to test the user routes are working <br/>
 **Type:** Get <br/>
 **Path:** localhost:5000/api/users/test <br/>
@@ -30,7 +29,6 @@ Mongo DB connected!
 * No parameters are required
 
 #### Create User
-<hr/>
 **Definition:** Creates a user object <br/>
 **Type:** Post <br/>
 **Path:** localhost:5000/api/users/create <br/>
@@ -40,7 +38,6 @@ Mongo DB connected!
 * email : String
 
 #### Upgrade User to Premium
-<hr/>
 **Definition:** Upgrades a user to a premium user <br/>
 **Type:** Post <br/>
 **Path:** localhost:5000/api/users/makepremium <br/>
@@ -50,7 +47,6 @@ Mongo DB connected!
 * authentication : any passed value will suffice for the request to be authenticated.
 
 #### Get Users
-<hr/>
 **Definition:** Returns a list of all users <br/>
 **Type:** Get <br/>
 **Path:** localhost:5000/api/users/getusers <br/>
@@ -58,7 +54,6 @@ Mongo DB connected!
 * No parameters are required
 
 #### Test Recipe Routes
-<hr/>
 **Definition:** Returns a message to test the recipe routes are working <br/>
 **Type:** Get <br/>
 **Path:** localhost:5000/api/recipes/test <br/>
@@ -66,7 +61,6 @@ Mongo DB connected!
     * No parameters are required
 
 #### Create Recipe
-<hr/>
 **Definition:** Creates a recipe object <br/>
 **Type:** Post <br/>
 **Path:** localhost:5000/api/recipes/create <br/>
@@ -78,7 +72,6 @@ Mongo DB connected!
 * isPrivate: Boolean (this field is optional)
 
 #### Edit Recipe
-<hr/>
 **Definition:** Edits a recipe object <br/>
 **Type:** Post <br/>
 **Path:** localhost:5000/api/recipes/edit <br/>
@@ -91,7 +84,6 @@ Mongo DB connected!
 * isPrivate: Boolean (this field is optional)
 
 #### Delete Recipe
-<hr/>
 **Definition:** Deletes a recipe object <br/>
 **Type:** Post <br/>
 **Path:** localhost:5000/api/recipes/delete <br/>
@@ -100,7 +92,6 @@ Mongo DB connected!
 * author : String
 
 #### Get Recipes
-<hr/>
 **Definition:** Returns a list of all public recipes. If an author is specified, returns a list of all recipes viewable by the author <br/>
 **Type:** Get <br/>
 **Path:** localhost:5000/api/recipes/getrecipes <br/>
@@ -108,7 +99,6 @@ Mongo DB connected!
 * author: String (this field is optional)
 
 #### Get Recipe
-<hr/>
 **Definition:** Returns a single recipe if it is viewable based on the parameters passed. <br/>
 **Type:** Get <br/>
 **Path:** localhost:5000/api/recipes/getrecipe <br/>
