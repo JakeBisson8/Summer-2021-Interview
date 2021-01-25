@@ -6,8 +6,6 @@ https://github.com/JakeBisson8/OutStemBackendChallenge
 
 ## Run Instructions
 
-### Download Source Code
-
 ### Running the Server
 1. Open a command prompt / terminal window with current directory set to the directory containing the source code
 1. Run the command: ```node index```
