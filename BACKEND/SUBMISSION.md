@@ -1,7 +1,7 @@
 ## Repository: 
 
 ```
-[https://github.com/JakeBisson8/OutStemBackendChallenge](https://github.com/JakeBisson8/OutStemBackendChallenge)
+https://github.com/JakeBisson8/OutStemBackendChallenge
 ```
 
 ## Run Instructions
