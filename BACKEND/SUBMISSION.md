@@ -109,6 +109,7 @@ Mongo DB connected!
 ### Technology Used
 * JavaScript
 * NodeJS
+* MongoDB
 * ExpressJS
 * Mongoose
 * VSCode
